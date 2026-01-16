@@ -1,0 +1,2232 @@
+0 ===== GameObject - Pin Projectile:
+  layer: 22
+  activeSelf: True
+  activeInHierarchy: False
+  isStatic: False
+  tag: Untagged
+  scene: [null]
+  hideFlags: None
+  Components:
+    0 --- Transform:
+      position: (192.14, 12.37, 0.00)
+      localPosition: (192.14, 12.37, 0.00)
+      rotation: (0.00, 0.00, 0.00)
+      localRotation: (0.00, 0.00, 0.00)
+      localScale: (1.00, 1.00, 1.00)
+      childCount: 5
+    1 --- MeshFilter:
+      sharedMesh: [null]
+      mesh: Pin Projectile [Mesh] [no auto-fields]
+    2 --- MeshRenderer:
+      additionalVertexStreams: [null]
+      enlightenVertexStream: [null]
+      subMeshStartIndex: 0
+      bounds: Center: (192.14, 12.37, 0.00), Extents: (0.00, 0.00, 0.00)
+      localBounds: Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+      enabled: True
+      isVisible: False
+      shadowCastingMode: On
+      receiveShadows: True
+      forceRenderingOff: False
+      staticShadowCaster: False
+      motionVectorGenerationMode: Object
+      lightProbeUsage: BlendProbes
+      reflectionProbeUsage: BlendProbes
+      renderingLayerMask: 1
+      rendererPriority: 0
+      rayTracingMode: DynamicTransform
+      rayTracingAccelerationStructureBuildFlags: PreferFastTrace
+      rayTracingAccelerationStructureBuildFlagsOverride: False
+      sortingLayerName: Default
+      sortingLayerID: 0
+      sortingOrder: 0
+      isLOD0: True
+      allowOcclusionWhenDynamic: True
+      isPartOfStaticBatch: False
+      worldToLocalMatrix:
+            1.000000	    0.000000	    0.000000	 -192.142600
+            0.000000	    1.000000	    0.000000	  -12.367750
+            0.000000	    0.000000	    1.000000	    0.000000
+            0.000000	    0.000000	    0.000000	    1.000000
+      localToWorldMatrix:
+            1.000000	    0.000000	    0.000000	  192.142600
+            0.000000	    1.000000	    0.000000	   12.367750
+            0.000000	    0.000000	    1.000000	    0.000000
+            0.000000	    0.000000	    0.000000	    1.000000
+      lightProbeProxyVolumeOverride: [null]
+      probeAnchor: [null]
+      lightmapIndex: -1
+      realtimeLightmapIndex: -1
+      lightmapScaleOffset: (1.00, 1.00, 0.00, 0.00)
+      realtimeLightmapScaleOffset: (1.00, 1.00, 0.00, 0.00)
+      materials:
+        0 [ID 0]: atlas0 material (Instance) [Material] [no auto-fields]
+      material [REF 0]: atlas0 material (Instance) [Material] [no auto-fields]
+      sharedMaterial [REF 0]: atlas0 material (Instance) [Material] [no auto-fields]
+      sharedMaterials:
+        0 [REF 0]: atlas0 material (Instance) [Material] [no auto-fields]
+      LODGroup: [null]
+    3 --- tk2dSprite:
+      collection: Crowman Dagger Cln [tk2dSpriteCollectionData]
+      _color: RGBA(1.000, 1.000, 1.000, 1.000)
+      _scale: (1.00, 1.00, 1.00)
+      _spriteId: 27
+      boxCollider2D: [null]
+      polygonCollider2D: [empty List<PolygonCollider2D>]
+      edgeCollider2D: [empty List<EdgeCollider2D>]
+      boxCollider: [null]
+      meshCollider: [null]
+      meshColliderPositions: [empty Vector3[]]
+      meshColliderMesh: [null]
+      renderLayer: 0
+    4 --- tk2dSpriteAnimator:
+      spriteOverride: [null]
+      library: Crowman Dagger Anim [tk2dSpriteAnimation]
+      defaultClipId: 8
+      isRealtime: False
+      playAutomatically: True
+      playAutomaticallyOnEnable: False
+      AnimationCompleted: [null]
+      AnimationEventTriggered: [null]
+      FrameChanged: [null]
+    5 --- BoxCollider2D:
+      size: (1.03, 0.25)
+      edgeRadius: 0
+      autoTiling: False
+      density: 1
+      isTrigger: True
+      usedByEffector: False
+      compositeOperation: None
+      compositeOrder: 0
+      composite: [null]
+      offset: (0.05, 0.04)
+      attachedRigidbody [REF 1]: Rigidbody2D
+      localToWorldMatrix:
+            1.000000	    0.000000	    0.000000	    0.000000
+            0.000000	    1.000000	    0.000000	    0.000000
+            0.000000	    0.000000	    1.000000	    0.000000
+            0.000000	    0.000000	    0.000000	    1.000000
+      shapeCount: 0
+      bounds: Center: (192.14, 12.37, 0.00), Extents: (0.00, 0.00, 0.00)
+      errorState: None
+      compositeCapable: True
+      sharedMaterial: [null]
+      layerOverridePriority: 0
+      excludeLayers:
+        value: 0
+      includeLayers:
+        value: 0
+      forceSendLayers:
+        value: -1
+      forceReceiveLayers:
+        value: -1
+      contactCaptureLayers:
+        value: -1
+      callbackLayers:
+        value: -1
+      friction: 0
+      bounciness: 0
+      frictionCombine: Mean
+      bounceCombine: Maximum
+      enabled: True
+      isActiveAndEnabled: False
+    6 --- Rigidbody2D [ID 1]:
+      position: (192.14, 12.37)
+      rotation: 0
+      linearVelocity: (0.00, 0.00)
+      linearVelocityX: 0
+      linearVelocityY: 0
+      angularVelocity: 0
+      useAutoMass: False
+      mass: 1
+      sharedMaterial: [null]
+      centerOfMass: (0.00, 0.00)
+      worldCenterOfMass: (0.00, 0.00)
+      inertia: 0
+      linearDamping: 0
+      angularDamping: 0.05
+      gravityScale: 0
+      bodyType: Dynamic
+      useFullKinematicContacts: False
+      freezeRotation: False
+      constraints: None
+      simulated: True
+      interpolation: None
+      sleepMode: StartAwake
+      collisionDetectionMode: Continuous
+      attachedColliderCount: 0
+      totalForce: (0.00, 0.00)
+      totalTorque: 0
+      excludeLayers:
+        value: 0
+      includeLayers:
+        value: 0
+      localToWorldMatrix:
+            1.000000	    0.000000	    0.000000	    0.000000
+            0.000000	    1.000000	    0.000000	    0.000000
+            0.000000	    0.000000	    1.000000	    0.000000
+            0.000000	    0.000000	    0.000000	    1.000000
+    7 --- NonBouncer:
+      active: True
+    8 --- PlayMakerFSM - Control [ID 2]:
+      Active: False
+      ActiveStateName: 
+      UsesTemplate: False
+      FsmVariables:
+        0 [ID 3]: { Name: Angle, Value: 0 } [FsmFloat]
+        1 [ID 4]: { Name: Angle Mod, Value: 0 } [FsmFloat]
+        2 [ID 5]: { Name: Break Effect, Value: Break Effect [GameObject] } [FsmGameObject]
+        3 [ID 6]: { Name: Dmg Receiver, Value: Dmg Receiver [GameObject] } [FsmGameObject]
+        4 [ID 7]: { Name: Init, Value: False } [FsmBool]
+        5 [ID 8]: { Name: Pt Break, Value: Pt Break [GameObject] } [FsmGameObject]
+        6 [ID 9]: { Name: Speed, Value: 0 } [FsmFloat]
+        7 [ID 10]: { Name: Thunk Effect, Value: Thunk Effect [GameObject] } [FsmGameObject]
+      FsmEvents:
+        0 FsmEvent [ID 11]:
+          name: FINISHED
+          isSystemEvent: True
+          isGlobal: False
+        1 FsmEvent [ID 12]:
+          name: HIT TERRAIN
+          isSystemEvent: False
+          isGlobal: False
+        2 FsmEvent [ID 13]:
+          name: L
+          isSystemEvent: False
+          isGlobal: True
+        3 FsmEvent:
+          name: ORBIT SHIELD
+          isSystemEvent: False
+          isGlobal: False
+        4 FsmEvent:
+          name: PARRIED
+          isSystemEvent: False
+          isGlobal: False
+        5 FsmEvent [ID 14]:
+          name: PROJECTILE BREAK
+          isSystemEvent: False
+          isGlobal: False
+        6 FsmEvent [ID 15]:
+          name: R
+          isSystemEvent: False
+          isGlobal: False
+        7 FsmEvent:
+          name: SNAP
+          isSystemEvent: False
+          isGlobal: False
+        8 FsmEvent [ID 16]:
+          name: WAIT
+          isSystemEvent: False
+          isGlobal: True
+        9 FsmEvent:
+          name: DEALT DAMAGE
+          isSystemEvent: False
+          isGlobal: False
+        10 FsmEvent:
+          name: BREAK
+          isSystemEvent: False
+          isGlobal: False
+      FsmGlobalTransitions:
+        0: DEALT DAMAGE => Dealt Damage
+      States:
+        0 --- FsmState - Init:
+          Transitions:
+            0: FINISHED => Fly
+          Actions:
+            0 --- FsmStateAction - SetIsKinematic2d:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              isKinematic: False [FsmBool]
+            1 --- FsmStateAction - Tk2dPlayAnimation:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              animLibName:  [FsmString]
+              clipName: Pin Fly [FsmString]
+            2 --- FsmStateAction - SetMeshRenderer:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              active: True [FsmBool]
+            3 --- FsmStateAction - SetCollider:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              active: True [FsmBool]
+              resetOnExit: False
+            4 --- FsmStateAction - ActivateGameObject:
+              gameObject:
+                ownerOption: SpecifyGameObject
+                gameObject [REF 5]: { Name: Break Effect, Value: Break Effect [GameObject] } [FsmGameObject]
+              activate: False [FsmBool]
+              recursive: False [FsmBool]
+              resetOnExit: False
+              everyFrame: False
+            5 --- FsmStateAction - ActivateGameObject:
+              gameObject:
+                ownerOption: SpecifyGameObject
+                gameObject [REF 6]: { Name: Dmg Receiver, Value: Dmg Receiver [GameObject] } [FsmGameObject]
+              activate: False [FsmBool]
+              recursive: False [FsmBool]
+              resetOnExit: False
+              everyFrame: False
+            6 --- FsmStateAction - SetDamageHeroAmount:
+              target:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              damageDealt: 1 [FsmInt]
+        1 --- FsmState - Fly:
+          Transitions:
+            0: HIT TERRAIN => Stick
+            1: PARRIED => Check
+            2: PROJECTILE BREAK => Break
+          Actions:
+            0 --- FsmStateAction - Trigger2dEventLayer:
+              trigger: OnTriggerEnter2D
+              collideTag:  [FsmString]
+              collideLayer: 8 [FsmInt]
+              sendEvent [REF 12]: HIT TERRAIN [FsmEvent]
+              storeCollider: [empty FsmGameObject]
+            1 --- FsmStateAction - FaceDirection:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              spriteFacesRight: False [FsmBool]
+              playNewAnimation: False
+              newAnimationClip:  [FsmString]
+              everyFrame: True
+              pauseBetweenTurns: False
+              pauseTime: 0 [FsmFloat]
+            2 --- FsmStateAction - FaceAngle:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              angleOffset: 180 [FsmFloat]
+              angleOffsetIfMirrored: 0 [FsmFloat]
+              otherGameObject: [empty FsmGameObject]
+              everyFrame: True
+            3 --- FsmStateAction - ReceivedDamage:
+              Target:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              collideTag:  [FsmString]
+              sendEvent: [null]
+              sendEventHeavy [REF 14]: PROJECTILE BREAK [FsmEvent]
+              sendEventSpikes [REF 14]: PROJECTILE BREAK [FsmEvent]
+              sendEventLava [REF 14]: PROJECTILE BREAK [FsmEvent]
+              sendEventLightning: [null]
+              storeGameObject: [empty FsmGameObject]
+              ignoreAcid: False [FsmBool]
+              ignoreLava: False [FsmBool]
+              ignoreWater: False [FsmBool]
+              ignoreHunterWeapon: False [FsmBool]
+              ignoreTraps: False [FsmBool]
+              ignoreNail: False [FsmBool]
+              ignoreSpikes: False [FsmBool]
+              storeDamageDealt: 0 [FsmInt]
+              storeDirection: 0 [FsmFloat]
+              storeMagnitudeMultiplier: 0 [FsmFloat]
+              firstHitOnly: False [FsmBool]
+            4 --- FsmStateAction - ActivateGameObject:
+              gameObject:
+                ownerOption: SpecifyGameObject
+                gameObject [REF 6]: { Name: Dmg Receiver, Value: Dmg Receiver [GameObject] } [FsmGameObject]
+              activate: True [FsmBool]
+              recursive: False [FsmBool]
+              resetOnExit: True
+              everyFrame: False
+        2 --- FsmState - Stick:
+          Transitions:
+            0: WAIT => Break
+          Actions:
+            0 --- FsmStateAction - PlayAudioEvent:
+              audioClip: straight_pin_wall_hit [AudioClip] [no auto-fields] [FsmObject]
+              pitchMin: 0.9 [FsmFloat]
+              pitchMax: 1.25 [FsmFloat]
+              volume: 0.8 [FsmFloat]
+              audioPlayerPrefab: [empty FsmObject]
+              spawnPoint:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              spawnPosition: (0.00, 0.00, 0.00) [FsmVector3]
+              SpawnedPlayerRef: [empty FsmGameObject]
+            1 --- FsmStateAction - SetCollider:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              active: False [FsmBool]
+              resetOnExit: False
+            2 --- FsmStateAction - SetIsKinematic2d:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              isKinematic: True [FsmBool]
+            3 --- FsmStateAction - SetAngularVelocity2d:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              angularVelocity: 0 [FsmFloat]
+              everyFrame: False
+            4 --- FsmStateAction - SetVelocity2d:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              vector: (0.00, 0.00) [FsmVector2]
+              x: 0 [FsmFloat]
+              y: 0 [FsmFloat]
+              everyFrame: False
+            5 --- FsmStateAction - Tk2dPlayAnimation:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              animLibName:  [FsmString]
+              clipName: Pin Thunk [FsmString]
+            6 --- FsmStateAction - ActivateGameObject:
+              gameObject:
+                ownerOption: SpecifyGameObject
+                gameObject [REF 10]: { Name: Thunk Effect, Value: Thunk Effect [GameObject] } [FsmGameObject]
+              activate: True [FsmBool]
+              recursive: False [FsmBool]
+              resetOnExit: False
+              everyFrame: False
+            7 --- FsmStateAction - WaitRandom:
+              timeMin: 5 [FsmFloat]
+              timeMax: 6 [FsmFloat]
+              finishEvent [REF 16]: WAIT [FsmEvent]
+              realTime: False
+        3 --- FsmState - Recycle:
+          Transitions: [empty FsmTransition[]]
+          Actions:
+            0: RecycleSelf [FsmStateAction] [no auto-fields]
+        4 --- FsmState - Break:
+          Transitions:
+            0: FINISHED => Deactivate
+          Actions:
+            0 --- FsmStateAction - PlayParticleEmitter:
+              gameObject:
+                ownerOption: SpecifyGameObject
+                gameObject [REF 8]: { Name: Pt Break, Value: Pt Break [GameObject] } [FsmGameObject]
+              emit: 0 [FsmInt]
+              resetIfPlaying: False
+            1 --- FsmStateAction - ActivateGameObject:
+              gameObject:
+                ownerOption: SpecifyGameObject
+                gameObject [REF 5]: { Name: Break Effect, Value: Break Effect [GameObject] } [FsmGameObject]
+              activate: True [FsmBool]
+              recursive: False [FsmBool]
+              resetOnExit: False
+              everyFrame: False
+        5 --- FsmState - Deflect:
+          Transitions:
+            0: FINISHED => Fly
+          Actions:
+            0 --- FsmStateAction - FloatAdd:
+              floatVariable [REF 3]: { Name: Angle, Value: 0 } [FsmFloat]
+              add [REF 4]: { Name: Angle Mod, Value: 0 } [FsmFloat]
+              everyFrame: False
+              perSecond: False
+            1 --- FsmStateAction - GetSpeed2d:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              storeResult [REF 9]: { Name: Speed, Value: 0 } [FsmFloat]
+              everyFrame: False
+            2 --- FsmStateAction - FloatMultiply:
+              floatVariable [REF 9]: { Name: Speed, Value: 0 } [FsmFloat]
+              multiplyBy: 2 [FsmFloat]
+              everyFrame: False
+            3 --- FsmStateAction - SetVelocityAsAngle:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              angle [REF 3]: { Name: Angle, Value: 0 } [FsmFloat]
+              speed [REF 9]: { Name: Speed, Value: 0 } [FsmFloat]
+              everyFrame: False
+            4 --- FsmStateAction - SetDamageHeroAmount:
+              target:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              damageDealt: 0 [FsmInt]
+        6 --- FsmState - Check:
+          Transitions:
+            0: L => Deflect L
+            1: R => Deflect R
+            2: FINISHED => Deflect Other
+          Actions:
+            0 --- FsmStateAction - GetVelocityAsAngle:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              storeAngle [REF 3]: { Name: Angle, Value: 0 } [FsmFloat]
+              everyFrame: False
+            1 --- FsmStateAction - FloatCompare:
+              float1 [REF 3]: { Name: Angle, Value: 0 } [FsmFloat]
+              float2: 0 [FsmFloat]
+              tolerance: 1 [FsmFloat]
+              equal [REF 15]: R [FsmEvent]
+              lessThan: [null]
+              greaterThan: [null]
+              everyFrame: False
+            2 --- FsmStateAction - FloatCompare:
+              float1 [REF 3]: { Name: Angle, Value: 0 } [FsmFloat]
+              float2: 180 [FsmFloat]
+              tolerance: 0 [FsmFloat]
+              equal [REF 13]: L [FsmEvent]
+              lessThan: [null]
+              greaterThan: [null]
+              everyFrame: False
+        7 --- FsmState - Deflect L:
+          Transitions:
+            0: FINISHED => Deflect
+          Actions:
+            0 --- FsmStateAction - RandomFloat:
+              min: -5 [FsmFloat]
+              max: -10 [FsmFloat]
+              storeResult [REF 4]: { Name: Angle Mod, Value: 0 } [FsmFloat]
+        8 --- FsmState - Deflect R:
+          Transitions:
+            0: FINISHED => Deflect
+          Actions:
+            0 --- FsmStateAction - RandomFloat:
+              min: 5 [FsmFloat]
+              max: 10 [FsmFloat]
+              storeResult [REF 4]: { Name: Angle Mod, Value: 0 } [FsmFloat]
+        9 --- FsmState - Deflect Other:
+          Transitions:
+            0: FINISHED => Deflect
+          Actions:
+            0 --- FsmStateAction - RandomFloat:
+              min: 5 [FsmFloat]
+              max: 10 [FsmFloat]
+              storeResult [REF 4]: { Name: Angle Mod, Value: 0 } [FsmFloat]
+            1 --- FsmStateAction - RandomlyFlipFloat:
+              storeResult [REF 4]: { Name: Angle Mod, Value: 0 } [FsmFloat]
+        10 --- FsmState - Dealt Damage:
+          Transitions:
+            0: FINISHED => Deactivate
+          Actions: [empty]
+        11 --- FsmState - Deactivate:
+          Transitions:
+            0: FINISHED => Recycle
+          Actions:
+            0 --- FsmStateAction - SetMeshRenderer:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              active: False [FsmBool]
+            1 --- FsmStateAction - SetCollider:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              active: False [FsmBool]
+              resetOnExit: False
+            2 --- FsmStateAction - Wait:
+              time: 0.5 [FsmFloat]
+              finishEvent [REF 11]: FINISHED [FsmEvent]
+              realTime: False
+            3 --- FsmStateAction - SetIsKinematic2d:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              isKinematic: True [FsmBool]
+            4 --- FsmStateAction - SetVelocity2d:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              vector: (0.00, 0.00) [FsmVector2]
+              x: 0 [FsmFloat]
+              y: 0 [FsmFloat]
+              everyFrame: False
+        12 --- FsmState - First:
+          Transitions:
+            0: FINISHED => Init
+          Actions:
+            0 --- FsmStateAction - BoolTest:
+              boolVariable [REF 7]: { Name: Init, Value: False } [FsmBool]
+              isTrue [REF 11]: FINISHED [FsmEvent]
+              isFalse: [null]
+              everyFrame: False
+            1 --- FsmStateAction - Tk2dPlayAnimation:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              animLibName:  [FsmString]
+              clipName: Pin Fly [FsmString]
+            2 --- FsmStateAction - FaceDirection:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              spriteFacesRight: False [FsmBool]
+              playNewAnimation: False
+              newAnimationClip:  [FsmString]
+              everyFrame: False
+              pauseBetweenTurns: False
+              pauseTime: 0 [FsmFloat]
+            3 --- FsmStateAction - FaceAngle:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              angleOffset: 180 [FsmFloat]
+              angleOffsetIfMirrored: 0 [FsmFloat]
+              otherGameObject: [empty FsmGameObject]
+              everyFrame: False
+            4 --- FsmStateAction - SetBoolValue:
+              boolVariable [REF 7]: { Name: Init, Value: False } [FsmBool]
+              boolValue: True [FsmBool]
+              everyFrame: False
+            5 --- FsmStateAction - SetIsKinematic2d:
+              gameObject:
+                ownerOption: UseOwner
+                gameObject: [empty FsmGameObject]
+              isKinematic: True [FsmBool]
+            6 --- FsmStateAction - ActivateGameObject:
+              gameObject:
+                ownerOption: SpecifyGameObject
+                gameObject [REF 5]: { Name: Break Effect, Value: Break Effect [GameObject] } [FsmGameObject]
+              activate: False [FsmBool]
+              recursive: False [FsmBool]
+              resetOnExit: False
+              everyFrame: False
+            7 --- FsmStateAction - ActivateGameObject:
+              gameObject:
+                ownerOption: SpecifyGameObject
+                gameObject [REF 6]: { Name: Dmg Receiver, Value: Dmg Receiver [GameObject] } [FsmGameObject]
+              activate: False [FsmBool]
+              recursive: False [FsmBool]
+              resetOnExit: False
+              everyFrame: False
+            8 --- FsmStateAction - NextFrameEvent:
+              sendEvent: [null]
+    9 --- DamageHero:
+      damageDealt: 1
+      hazardType: ENEMY
+      damageAsset: [null]
+      damagePropertyFlags: None
+      resetOnEnable: False
+      canClashTink: True
+      forceParry: False
+      noClashFreeze: True
+      noTerrainThunk: False
+      noTerrainRecoil: False
+      noCorpseSpikeStick: False
+      noBounceCooldown: False
+      overrideCollisionSide: False
+      collisionSide: top
+      invertCollisionSide: False
+      HeroDamagedFSM [REF 2]: Control [PlayMakerFSM]
+      AlwaysSendDamaged: False
+      HeroDamagedFSMEvent: DEALT DAMAGE
+      HeroDamagedFSMBool: 
+      HeroDamagedFSMGameObject: 
+      ClashEvents:
+        OnClashUp:
+          m_PersistentCalls:
+            m_Calls: [empty List<PersistentCall>]
+        OnClashDown:
+          m_PersistentCalls:
+            m_Calls: [empty List<PersistentCall>]
+        OnClashLeft:
+          m_PersistentCalls:
+            m_Calls: [empty List<PersistentCall>]
+        OnClashRight:
+          m_PersistentCalls:
+            m_Calls: [empty List<PersistentCall>]
+      OnDamagedHero:
+        m_PersistentCalls:
+          m_Calls: [empty List<PersistentCall>]
+    10 --- PlayMakerFixedUpdate:
+      TargetFSMs: [empty List<PlayMakerFSM>]
+    11 --- AutoRecycleSelf:
+      afterEvent: LEVEL_UNLOAD
+      timeToWait: 4
+      unscaledTime: False
+      OnBeforeRecycle:
+        m_PersistentCalls:
+          m_Calls: [empty List<PersistentCall>]
+    12 --- SetZRandom:
+      zMin: 0.003
+      zMax: 0.0039
+      localSpace: False
+      relativeToInitial: False
+  Children:
+    0 ===== GameObject - Thunk Effect:
+      layer: 22
+      activeSelf: False
+      activeInHierarchy: False
+      isStatic: False
+      tag: Untagged
+      scene: [null]
+      hideFlags: None
+      Components:
+        0 --- Transform:
+          position: (191.60, 12.35, 0.00)
+          localPosition: (-0.54, -0.02, 0.00)
+          rotation: (0.00, 0.00, 270.00)
+          localRotation: (0.00, 0.00, 270.00)
+          localScale: (1.17, 1.17, 1.17)
+          childCount: 0
+        1 --- MeshRenderer:
+          additionalVertexStreams: [null]
+          enlightenVertexStream: [null]
+          subMeshStartIndex: 0
+          bounds: Center: (191.60, 12.35, 0.00), Extents: (0.00, 0.00, 0.00)
+          localBounds: Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+          enabled: True
+          isVisible: False
+          shadowCastingMode: On
+          receiveShadows: True
+          forceRenderingOff: False
+          staticShadowCaster: False
+          motionVectorGenerationMode: Object
+          lightProbeUsage: BlendProbes
+          reflectionProbeUsage: BlendProbes
+          renderingLayerMask: 1
+          rendererPriority: 0
+          rayTracingMode: DynamicTransform
+          rayTracingAccelerationStructureBuildFlags: PreferFastTrace
+          rayTracingAccelerationStructureBuildFlagsOverride: False
+          sortingLayerName: Default
+          sortingLayerID: 0
+          sortingOrder: 0
+          isLOD0: True
+          allowOcclusionWhenDynamic: True
+          isPartOfStaticBatch: False
+          worldToLocalMatrix:
+               -0.000033	   -0.852932	    0.000000	   10.538110
+                0.852932	   -0.000033	    0.000000	 -163.423600
+                0.000000	    0.000000	    0.852932	    0.000853
+                0.000000	    0.000000	    0.000000	    1.000000
+          localToWorldMatrix:
+               -0.000045	    1.172426	    0.000000	  191.602600
+               -1.172427	   -0.000045	    0.000000	   12.347750
+                0.000000	    0.000000	    1.172426	   -0.001000
+                0.000000	    0.000000	    0.000000	    1.000000
+          lightProbeProxyVolumeOverride: [null]
+          probeAnchor: [null]
+          lightmapIndex: -1
+          realtimeLightmapIndex: -1
+          lightmapScaleOffset: (1.00, 1.00, 0.00, 0.00)
+          realtimeLightmapScaleOffset: (1.00, 1.00, 0.00, 0.00)
+          materials:
+            0 [ID 17]: atlas0 material (Instance) [Material] [no auto-fields]
+          material [REF 17]: atlas0 material (Instance) [Material] [no auto-fields]
+          sharedMaterial [REF 17]: atlas0 material (Instance) [Material] [no auto-fields]
+          sharedMaterials:
+            0 [REF 17]: atlas0 material (Instance) [Material] [no auto-fields]
+          LODGroup: [null]
+        2 --- MeshFilter:
+          sharedMesh: [null]
+          mesh: Thunk Effect [Mesh] [no auto-fields]
+        3 --- tk2dSprite:
+          collection: EnemyHitEffects [tk2dSpriteCollectionData]
+          _color: RGBA(1.000, 1.000, 1.000, 1.000)
+          _scale: (1.00, 1.00, 1.00)
+          _spriteId: 69
+          boxCollider2D: [null]
+          polygonCollider2D: [empty List<PolygonCollider2D>]
+          edgeCollider2D: [empty List<EdgeCollider2D>]
+          boxCollider: [null]
+          meshCollider: [null]
+          meshColliderPositions: [empty Vector3[]]
+          meshColliderMesh: [null]
+          renderLayer: 0
+        4 --- tk2dSpriteAnimator:
+          spriteOverride: [null]
+          library: Strikes [tk2dSpriteAnimation]
+          defaultClipId: 6
+          isRealtime: False
+          playAutomatically: True
+          playAutomaticallyOnEnable: False
+          AnimationCompleted: [null]
+          AnimationEventTriggered: [null]
+          FrameChanged: [null]
+        5 --- DeactivateAfter2dtkAnimation:
+          animators: [empty List<tk2dSpriteAnimator>]
+          stayInPlace: False
+          matchParentScale: False
+          randomlyFlipXScale: False
+          randomlyFlipYScale: False
+          keepScaleSign: False
+          myParent: [null]
+          deactivateMeshRendererInstead: False
+      Children: [empty]
+    1 ===== GameObject - Pt Break:
+      layer: 22
+      activeSelf: True
+      activeInHierarchy: False
+      isStatic: False
+      tag: Untagged
+      scene: [null]
+      hideFlags: None
+      Components:
+        0 --- Transform:
+          position: (192.21, 12.38, 0.00)
+          localPosition: (0.07, 0.01, 0.00)
+          rotation: (0.00, 0.00, 180.00)
+          localRotation: (0.00, 0.00, 180.00)
+          localScale: (0.37, 0.05, 0.13)
+          childCount: 0
+        1 --- ParticleSystem:
+          isPlaying: False
+          isEmitting: False
+          isStopped: True
+          isPaused: False
+          particleCount: 0
+          time: 0
+          totalTime: 0
+          randomSeed: 0
+          useAutoRandomSeed: True
+          proceduralSimulationSupported: False
+          has3DParticleRotations: False
+          hasNonUniformParticleSizes: False
+          main:
+            emitterVelocity: (0.00, 0.00, 0.00)
+            duration: 0.1
+            loop: False
+            prewarm: False
+            startDelay:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            startDelayMultiplier: 0
+            startLifetime:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0.2
+              m_ConstantMax: 0.3
+            startLifetimeMultiplier: 0.3
+            startSpeed:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 2
+              m_ConstantMax: 8
+            startSpeedMultiplier: 8
+            startSize3D: False
+            startSize:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0.3
+              m_ConstantMax: 0.4
+            startSizeMultiplier: 0.4
+            startSizeX:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0.3
+              m_ConstantMax: 0.4
+            startSizeXMultiplier: 0.4
+            startSizeY:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 1
+              m_ConstantMax: 1
+            startSizeYMultiplier: 1
+            startSizeZ:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 1
+              m_ConstantMax: 1
+            startSizeZMultiplier: 1
+            startRotation3D: False
+            startRotation:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            startRotationMultiplier: 0
+            startRotationX:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            startRotationXMultiplier: 0
+            startRotationY:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            startRotationYMultiplier: 0
+            startRotationZ:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            startRotationZMultiplier: 0
+            flipRotation: 0
+            startColor:
+              m_Mode: Color
+              m_GradientMin: [null]
+              m_GradientMax: [null]
+              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
+              m_ColorMax: RGBA(0.702, 0.600, 0.447, 1.000)
+            gravitySource: Physics3D
+            gravityModifier:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 2
+            gravityModifierMultiplier: 2
+            simulationSpace: World
+            customSimulationSpace: [null]
+            simulationSpeed: 1
+            useUnscaledTime: False
+            scalingMode: Shape
+            playOnAwake: False
+            maxParticles: 1000
+            emitterVelocityMode: Rigidbody
+            stopAction: None
+            ringBufferMode: Disabled
+            ringBufferLoopRange: (0.00, 1.00)
+            cullingMode: AlwaysSimulate
+          emission:
+            enabled: True
+            rateOverTime:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 200
+            rateOverTimeMultiplier: 200
+            rateOverDistance:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            rateOverDistanceMultiplier: 0
+            burstCount: 0
+          shape:
+            enabled: True
+            shapeType: Circle
+            randomDirectionAmount: 0
+            sphericalDirectionAmount: 0
+            randomPositionAmount: 0
+            alignToDirection: False
+            radius: 1.72
+            radiusMode: Random
+            radiusSpread: 0
+            radiusSpeed:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            radiusSpeedMultiplier: 1
+            radiusThickness: 1
+            angle: 25
+            length: 5
+            boxThickness: (0.00, 0.00, 0.00)
+            meshShapeType: Vertex
+            mesh: [null]
+            meshRenderer: [null]
+            skinnedMeshRenderer: [null]
+            sprite: [null]
+            spriteRenderer: [null]
+            useMeshMaterialIndex: False
+            meshMaterialIndex: 0
+            useMeshColors: True
+            normalOffset: 0
+            meshSpawnMode: Random
+            meshSpawnSpread: 0
+            meshSpawnSpeed:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            meshSpawnSpeedMultiplier: 1
+            arc: 360
+            arcMode: Random
+            arcSpread: 0
+            arcSpeed:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            arcSpeedMultiplier: 1
+            donutRadius: 0.2
+            position: (0.00, 0.00, 0.00)
+            rotation: (0.00, 0.00, 0.00)
+            scale: (1.00, 1.00, 1.00)
+            texture: [null]
+            textureClipChannel: Alpha
+            textureClipThreshold: 0
+            textureColorAffectsParticles: True
+            textureAlphaAffectsParticles: True
+            textureBilinearFiltering: False
+            textureUVChannel: 0
+          velocityOverLifetime:
+            enabled: True
+            x:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            y:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 5
+              m_ConstantMax: 0
+            z:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            xMultiplier: 0
+            yMultiplier: 0
+            zMultiplier: 0
+            orbitalX:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            orbitalY:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            orbitalZ:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            orbitalXMultiplier: 0
+            orbitalYMultiplier: 0
+            orbitalZMultiplier: 0
+            orbitalOffsetX:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            orbitalOffsetY:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            orbitalOffsetZ:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            orbitalOffsetXMultiplier: 0
+            orbitalOffsetYMultiplier: 0
+            orbitalOffsetZMultiplier: 0
+            radial:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            radialMultiplier: 0
+            speedModifier:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            speedModifierMultiplier: 1
+            space: World
+          limitVelocityOverLifetime:
+            enabled: True
+            limitX:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            limitXMultiplier: 1
+            limitY:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            limitYMultiplier: 1
+            limitZ:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            limitZMultiplier: 1
+            limit:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            limitMultiplier: 0
+            dampen: 0.2
+            separateAxes: False
+            space: Local
+            drag:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            dragMultiplier: 0
+            multiplyDragByParticleSize: True
+            multiplyDragByParticleVelocity: True
+          inheritVelocity:
+            enabled: False
+            mode: Initial
+            curve:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            curveMultiplier: 0
+          lifetimeByEmitterSpeed:
+            enabled: False
+            curve:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 1
+                    inTangent: 0
+                    outTangent: -0.8
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 0.2
+                    inTangent: -0.8
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            curveMultiplier: 1
+            range: (0.00, 1.00)
+          forceOverLifetime:
+            enabled: False
+            x:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            y:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            z:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            xMultiplier: 0
+            yMultiplier: 0
+            zMultiplier: 0
+            space: Local
+            randomized: False
+          colorOverLifetime:
+            enabled: False
+            color:
+              m_Mode: Gradient
+              m_GradientMin: [null]
+              m_GradientMax:
+                colorKeys:
+                  0:
+                    color: RGBA(1.000, 1.000, 1.000, 1.000)
+                    time: 0
+                  1:
+                    color: RGBA(1.000, 1.000, 1.000, 1.000)
+                    time: 1
+                alphaKeys:
+                  0:
+                    alpha: 1
+                    time: 0
+                  1:
+                    alpha: 1
+                    time: 1
+                mode: Blend
+                colorSpace: Uninitialized
+              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
+              m_ColorMax: RGBA(0.000, 0.000, 2567349000000000000000.000, 0.000)
+          colorBySpeed:
+            enabled: False
+            color:
+              m_Mode: Gradient
+              m_GradientMin: [null]
+              m_GradientMax:
+                colorKeys:
+                  0:
+                    color: RGBA(1.000, 1.000, 1.000, 1.000)
+                    time: 0
+                  1:
+                    color: RGBA(1.000, 1.000, 1.000, 1.000)
+                    time: 1
+                alphaKeys:
+                  0:
+                    alpha: 1
+                    time: 0
+                  1:
+                    alpha: 1
+                    time: 1
+                mode: Blend
+                colorSpace: Uninitialized
+              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
+              m_ColorMax: RGBA(0.000, 0.000, 2567349000000000000000.000, 0.000)
+            range: (0.00, 1.00)
+          sizeOverLifetime:
+            enabled: True
+            size:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 0.7846608
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  2:
+                    time: 1
+                    value: 0.2855471
+                    inTangent: -5.090095
+                    outTangent: -5.090095
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 3
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            sizeMultiplier: 1
+            x:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 0.7846608
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  2:
+                    time: 1
+                    value: 0.2855471
+                    inTangent: -5.090095
+                    outTangent: -5.090095
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 3
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            xMultiplier: 1
+            y:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            yMultiplier: 1
+            z:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            zMultiplier: 1
+            separateAxes: False
+          sizeBySpeed:
+            enabled: False
+            size:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            sizeMultiplier: 1
+            x:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            xMultiplier: 1
+            y:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            yMultiplier: 1
+            z:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 0
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            zMultiplier: 1
+            separateAxes: False
+            range: (0.00, 1.00)
+          rotationOverLifetime:
+            enabled: True
+            x:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            xMultiplier: 0
+            y:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            yMultiplier: 0
+            z:
+              m_Mode: TwoConstants
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: -2.094395
+              m_ConstantMax: 2.094395
+            zMultiplier: 2.094395
+            separateAxes: False
+          rotationBySpeed:
+            enabled: False
+            x:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            xMultiplier: 0
+            y:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            yMultiplier: 0
+            z:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0.7853982
+            zMultiplier: 0.7853982
+            separateAxes: False
+            range: (0.00, 1.00)
+          externalForces:
+            enabled: False
+            multiplier: 1
+            multiplierCurve:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            influenceFilter: LayerMask
+            influenceMask:
+              value: -1
+            influenceCount: 0
+          noise:
+            enabled: False
+            separateAxes: False
+            strength:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            strengthMultiplier: 1
+            strengthX:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            strengthXMultiplier: 1
+            strengthY:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            strengthYMultiplier: 1
+            strengthZ:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            strengthZMultiplier: 1
+            frequency: 0.5
+            damping: True
+            octaveCount: 1
+            octaveMultiplier: 0.5
+            octaveScale: 2
+            quality: High
+            scrollSpeed:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            scrollSpeedMultiplier: 0
+            remapEnabled: False
+            remap:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 0
+                    inTangent: 0
+                    outTangent: 1
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 1
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            remapMultiplier: 1
+            remapX:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 0
+                    inTangent: 0
+                    outTangent: 1
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 1
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            remapXMultiplier: 1
+            remapY:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 0
+                    inTangent: 0
+                    outTangent: 1
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 1
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            remapYMultiplier: 1
+            remapZ:
+              m_Mode: Curve
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 0
+                    inTangent: 0
+                    outTangent: 1
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 1
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            remapZMultiplier: 1
+            positionAmount:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            rotationAmount:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            sizeAmount:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+          collision:
+            enabled: False
+            type: World
+            mode: Collision2D
+            dampen:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            dampenMultiplier: 0
+            bounce:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0.5
+            bounceMultiplier: 0.5
+            lifetimeLoss:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            lifetimeLossMultiplier: 0
+            minKillSpeed: 20
+            maxKillSpeed: 10000
+            collidesWith:
+              value: 256
+            enableDynamicColliders: True
+            maxCollisionShapes: 256
+            quality: Low
+            voxelSize: 1
+            radiusScale: 0.5
+            sendCollisionMessages: False
+            colliderForce: 0
+            multiplyColliderForceByCollisionAngle: True
+            multiplyColliderForceByParticleSpeed: False
+            multiplyColliderForceByParticleSize: False
+            planeCount: 6
+          trigger:
+            enabled: False
+            inside: Kill
+            outside: Ignore
+            enter: Ignore
+            exit: Ignore
+            colliderQueryMode: Disabled
+            radiusScale: 1
+            colliderCount: 6
+          subEmitters:
+            enabled: False
+            subEmittersCount: 0
+          textureSheetAnimation:
+            enabled: True
+            mode: Grid
+            timeMode: Lifetime
+            fps: 30
+            numTilesX: 1
+            numTilesY: 4
+            animation: SingleRow
+            rowMode: Random
+            frameOverTime:
+              m_Mode: Curve
+              m_CurveMultiplier: 0.9999
+              m_CurveMin: [null]
+              m_CurveMax:
+                keys:
+                  0:
+                    time: 0
+                    value: 0
+                    inTangent: 0
+                    outTangent: 1
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                  1:
+                    time: 1
+                    value: 1
+                    inTangent: 1
+                    outTangent: 0
+                    inWeight: 0.3333333
+                    outWeight: 0.3333333
+                    weightedMode: None
+                length: 2
+                preWrapMode: ClampForever
+                postWrapMode: ClampForever
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            frameOverTimeMultiplier: 0.9999
+            startFrame:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 0
+            startFrameMultiplier: 0
+            cycleCount: 1
+            rowIndex: 0
+            uvChannelMask: -1
+            spriteCount: 1
+            speedRange: (0.00, 1.00)
+          lights:
+            enabled: False
+            ratio: 0
+            useRandomDistribution: True
+            light: [null]
+            useParticleColor: True
+            sizeAffectsRange: True
+            alphaAffectsIntensity: True
+            range:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            rangeMultiplier: 1
+            intensity:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            intensityMultiplier: 1
+            maxLights: 20
+          trails:
+            enabled: False
+            mode: PerParticle
+            ratio: 1
+            lifetime:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            lifetimeMultiplier: 1
+            minVertexDistance: 0.2
+            textureMode: Stretch
+            textureScale: (1.00, 1.00)
+            worldSpace: False
+            dieWithParticles: True
+            sizeAffectsWidth: True
+            sizeAffectsLifetime: False
+            inheritParticleColor: True
+            colorOverLifetime:
+              m_Mode: Color
+              m_GradientMin: [null]
+              m_GradientMax: [null]
+              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
+              m_ColorMax: RGBA(1.000, 1.000, 1.000, 1.000)
+            widthOverTrail:
+              m_Mode: Constant
+              m_CurveMultiplier: 1
+              m_CurveMin: [null]
+              m_CurveMax: [null]
+              m_ConstantMin: 0
+              m_ConstantMax: 1
+            widthOverTrailMultiplier: 1
+            colorOverTrail:
+              m_Mode: Color
+              m_GradientMin: [null]
+              m_GradientMax: [null]
+              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
+              m_ColorMax: RGBA(1.000, 1.000, 1.000, 1.000)
+            generateLightingData: False
+            ribbonCount: 1
+            shadowBias: 0.5
+            splitSubEmitterRibbons: False
+            attachRibbonsToTransform: False
+          customData:
+            enabled: False
+        2 --- ParticleSystemRenderer:
+          alignment: View
+          renderMode: Billboard
+          meshDistribution: UniformRandom
+          sortMode: None
+          lengthScale: 2
+          velocityScale: 0
+          cameraVelocityScale: 0
+          normalDirection: 1
+          shadowBias: 0
+          sortingFudge: 0
+          minParticleSize: 0
+          maxParticleSize: 0.5
+          pivot: (0.00, 0.00, 0.00)
+          flip: (0.00, 0.00, 0.00)
+          maskInteraction: None
+          trailMaterial: [null]
+          enableGPUInstancing: False
+          allowRoll: True
+          freeformStretching: False
+          rotateWithStretchDirection: True
+          mesh: [null]
+          meshCount: 0
+          activeVertexStreamsCount: 5
+          activeTrailVertexStreamsCount: 4
+          bounds: Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+          localBounds: Center: (0.00, 0.00, 0.00), Extents: (0.00, 0.00, 0.00)
+          enabled: True
+          isVisible: False
+          shadowCastingMode: Off
+          receiveShadows: False
+          forceRenderingOff: False
+          staticShadowCaster: False
+          motionVectorGenerationMode: Object
+          lightProbeUsage: BlendProbes
+          reflectionProbeUsage: Off
+          renderingLayerMask: 1
+          rendererPriority: 0
+          rayTracingMode: Off
+          rayTracingAccelerationStructureBuildFlags: PreferFastTrace
+          rayTracingAccelerationStructureBuildFlagsOverride: False
+          sortingLayerName: Default
+          sortingLayerID: 0
+          sortingOrder: 0
+          isLOD0: True
+          allowOcclusionWhenDynamic: True
+          isPartOfStaticBatch: False
+          worldToLocalMatrix:
+               -2.694601	   -0.000057	    0.000000	  517.937000
+                0.000387	  -18.406260	    0.000000	  227.753800
+                0.000000	    0.000000	    7.937253	    0.007937
+                0.000000	    0.000000	    0.000000	    1.000000
+          localToWorldMatrix:
+               -0.371113	    0.000001	    0.000000	  192.212600
+               -0.000008	   -0.054329	    0.000000	   12.377760
+                0.000000	    0.000000	    0.125988	   -0.001000
+                0.000000	    0.000000	    0.000000	    1.000000
+          lightProbeProxyVolumeOverride: [null]
+          probeAnchor: [null]
+          lightmapIndex: -1
+          realtimeLightmapIndex: -1
+          lightmapScaleOffset: (1.00, 1.00, 0.00, 0.00)
+          realtimeLightmapScaleOffset: (1.00, 1.00, 0.00, 0.00)
+          materials:
+            0 [ID 18]: Particle_Tool_Fragment (Instance) [Material] [no auto-fields]
+          material [REF 18]: Particle_Tool_Fragment (Instance) [Material] [no auto-fields]
+          sharedMaterial [REF 18]: Particle_Tool_Fragment (Instance) [Material] [no auto-fields]
+          sharedMaterials:
+            0 [REF 18]: Particle_Tool_Fragment (Instance) [Material] [no auto-fields]
+          LODGroup: [null]
+      Children: [empty]
+    2 ===== GameObject - Break Effect:
+      layer: 0
+      activeSelf: False
+      activeInHierarchy: False
+      isStatic: False
+      tag: Untagged
+      scene: [null]
+      hideFlags: None
+      Components:
+        0 --- Transform [ID 19]:
+          position: (192.24, 12.35, 0.00)
+          localPosition: (0.10, -0.02, 0.00)
+          rotation: (0.00, 0.00, 303.77)
+          localRotation: (0.00, 0.00, 303.77)
+          localScale: (0.73, 0.73, 0.73)
+          childCount: 0
+        1 --- SpriteRenderer:
+          sprite: nail_terrain_hit_effect0001 [Sprite] [no auto-fields]
+          drawMode: Simple
+          size: (1.00, 1.00)
+          adaptiveModeThreshold: 0.5
+          tileMode: Continuous
+          color: RGBA(1.000, 1.000, 1.000, 1.000)
+          maskInteraction: None
+          flipX: False
+          flipY: False
+          spriteSortPoint: Center
+          bounds: Center: (192.24, 12.35, 0.00), Extents: (1.67, 1.82, 0.07)
+          localBounds: Center: (0.00, 0.00, 0.00), Extents: (2.08, 1.34, 0.10)
+          enabled: False
+          isVisible: False
+          shadowCastingMode: Off
+          receiveShadows: False
+          forceRenderingOff: False
+          staticShadowCaster: False
+          motionVectorGenerationMode: Object
+          lightProbeUsage: Off
+          reflectionProbeUsage: Off
+          renderingLayerMask: 1
+          rendererPriority: 0
+          rayTracingMode: Off
+          rayTracingAccelerationStructureBuildFlags: PreferFastTrace
+          rayTracingAccelerationStructureBuildFlagsOverride: False
+          sortingLayerName: Over
+          sortingLayerID: -349214895
+          sortingOrder: 0
+          isLOD0: True
+          allowOcclusionWhenDynamic: True
+          isPartOfStaticBatch: False
+          worldToLocalMatrix:
+                0.757164	   -1.132298	    0.000000	 -131.577900
+                1.132298	    0.757164	    0.000000	 -227.025300
+                0.000000	    0.000000	    1.362130	    0.000000
+                0.000000	    0.000000	    0.000000	    1.000000
+          localToWorldMatrix:
+                0.408087	    0.610273	    0.000000	  192.242600
+               -0.610273	    0.408087	    0.000000	   12.347750
+                0.000000	    0.000000	    0.734145	    0.000000
+                0.000000	    0.000000	    0.000000	    1.000000
+          lightProbeProxyVolumeOverride: [null]
+          probeAnchor: [null]
+          lightmapIndex: -1
+          realtimeLightmapIndex: -1
+          lightmapScaleOffset: (1.00, 1.00, 0.00, 0.00)
+          realtimeLightmapScaleOffset: (1.00, 1.00, 0.00, 0.00)
+          materials:
+            0 [ID 20]: Sprites-Default (Instance) [Material] [no auto-fields]
+          material [REF 20]: Sprites-Default (Instance) [Material] [no auto-fields]
+          sharedMaterial [REF 20]: Sprites-Default (Instance) [Material] [no auto-fields]
+          sharedMaterials:
+            0 [REF 20]: Sprites-Default (Instance) [Material] [no auto-fields]
+          LODGroup: [null]
+        2 --- Animator:
+          isOptimizable: False
+          isHuman: False
+          hasRootMotion: False
+          humanScale: 1
+          isInitialized: False
+          deltaPosition: (0.00, 0.00, 0.00)
+          deltaRotation: (0.00000, 0.00000, 0.00000, 1.00000)
+          velocity: (0.00, 0.00, 0.00)
+          angularVelocity: (0.00, 0.00, 0.00)
+          rootPosition: (0.00, 0.00, 0.00)
+          rootRotation: (0.00000, 0.00000, 0.00000, 1.00000)
+          applyRootMotion: False
+          animatePhysics: False
+          updateMode: Normal
+          hasTransformHierarchy: True
+          gravityWeight: 0
+          bodyPosition: (0.00, 0.00, 0.00)
+          bodyRotation: (0.00000, 0.00000, 0.00000, 0.00000)
+          stabilizeFeet: False
+          layerCount: 0
+          parameters: [empty AnimatorControllerParameter[]]
+          parameterCount: 0
+          feetPivotActive: 0
+          pivotWeight: 0
+          pivotPosition: (0.00, 0.00, 0.00)
+          isMatchingTarget: False
+          speed: 1
+          targetPosition: (0.00, 0.00, 0.00)
+          targetRotation: (0.00000, 0.00000, 0.00000, 1.00000)
+          avatarRoot [REF 19]: Break Effect [Transform]
+          cullingMode: CullCompletely
+          playbackTime: -1
+          recorderStartTime: -1
+          recorderStopTime: -1
+          recorderMode: Offline
+          runtimeAnimatorController: Nail Terrain Hit Effect [RuntimeAnimatorController] [no auto-fields]
+          hasBoundPlayables: False
+          avatar: [null]
+          playableGraph: [no auto-fields in PlayableGraph] [no auto-properties]
+          layersAffectMassCenter: False
+          leftFeetBottomHeight: 0
+          rightFeetBottomHeight: 0
+          logWarnings: True
+          fireEvents: True
+          keepAnimatorStateOnDisable: False
+          writeDefaultValuesOnDisable: False
+          enabled: False
+          isActiveAndEnabled: False
+      Children: [empty]
+    3 ===== GameObject - Particle Collider:
+      layer: 18
+      activeSelf: True
+      activeInHierarchy: False
+      isStatic: False
+      tag: Untagged
+      scene: [null]
+      hideFlags: None
+      Components:
+        0 --- Transform:
+          position: (192.14, 12.37, 0.00)
+          localPosition: (0.00, 0.00, 0.00)
+          rotation: (0.00, 0.00, 0.00)
+          localRotation: (0.00, 0.00, 0.00)
+          localScale: (1.00, 1.00, 1.00)
+          childCount: 0
+        1 --- BoxCollider2D:
+          size: (1.03, 0.25)
+          edgeRadius: 0
+          autoTiling: False
+          density: 1
+          isTrigger: True
+          usedByEffector: False
+          compositeOperation: None
+          compositeOrder: 0
+          composite: [null]
+          offset: (0.05, 0.04)
+          attachedRigidbody [REF 1]: Rigidbody2D
+          localToWorldMatrix:
+                1.000000	    0.000000	    0.000000	    0.000000
+                0.000000	    1.000000	    0.000000	    0.000000
+                0.000000	    0.000000	    1.000000	    0.000000
+                0.000000	    0.000000	    0.000000	    1.000000
+          shapeCount: 0
+          bounds: Center: (192.14, 12.37, 0.00), Extents: (0.00, 0.00, 0.00)
+          errorState: None
+          compositeCapable: True
+          sharedMaterial: [null]
+          layerOverridePriority: 0
+          excludeLayers:
+            value: 0
+          includeLayers:
+            value: 0
+          forceSendLayers:
+            value: -1
+          forceReceiveLayers:
+            value: -1
+          contactCaptureLayers:
+            value: -1
+          callbackLayers:
+            value: -1
+          friction: 0
+          bounciness: 0
+          frictionCombine: Mean
+          bounceCombine: Maximum
+          enabled: True
+          isActiveAndEnabled: False
+      Children: [empty]
+    4 ===== GameObject - Dmg Receiver:
+      layer: 19
+      activeSelf: True
+      activeInHierarchy: False
+      isStatic: False
+      tag: Untagged
+      scene: [null]
+      hideFlags: None
+      Components:
+        0 --- Transform:
+          position: (192.14, 12.37, 0.00)
+          localPosition: (0.00, 0.00, 0.00)
+          rotation: (0.00, 0.00, 0.00)
+          localRotation: (0.00, 0.00, 0.00)
+          localScale: (1.00, 1.00, 1.00)
+          childCount: 0
+        1 --- BoxCollider2D:
+          size: (1.41, 0.61)
+          edgeRadius: 0
+          autoTiling: False
+          density: 1
+          isTrigger: True
+          usedByEffector: False
+          compositeOperation: None
+          compositeOrder: 0
+          composite: [null]
+          offset: (0.05, 0.05)
+          attachedRigidbody [REF 1]: Rigidbody2D
+          localToWorldMatrix:
+                1.000000	    0.000000	    0.000000	    0.000000
+                0.000000	    1.000000	    0.000000	    0.000000
+                0.000000	    0.000000	    1.000000	    0.000000
+                0.000000	    0.000000	    0.000000	    1.000000
+          shapeCount: 0
+          bounds: Center: (192.14, 12.37, 0.00), Extents: (0.00, 0.00, 0.00)
+          errorState: None
+          compositeCapable: True
+          sharedMaterial: [null]
+          layerOverridePriority: 0
+          excludeLayers:
+            value: 0
+          includeLayers:
+            value: 0
+          forceSendLayers:
+            value: -1
+          forceReceiveLayers:
+            value: -1
+          contactCaptureLayers:
+            value: -1
+          callbackLayers:
+            value: -1
+          friction: 0
+          bounciness: 0
+          frictionCombine: Mean
+          bounceCombine: Maximum
+          enabled: True
+          isActiveAndEnabled: False
+        2 --- NonBouncer:
+          active: True
+      Children: [empty]
