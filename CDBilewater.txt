@@ -4512,7 +4512,7 @@
                     time: 1
                 mode: Blend
                 colorSpace: Uninitialized
-              m_ColorMin: RGBA(-36509450000.000, 0.000, 544514400000000000.000, 0.000)
+              m_ColorMin: RGBA(0.088, 0.000, 0.000, 0.000)
               m_ColorMax: RGBA(0.000, 0.000, 0.000, 0.000)
           colorBySpeed:
             enabled: False
@@ -4536,7 +4536,7 @@
                     time: 1
                 mode: Blend
                 colorSpace: Uninitialized
-              m_ColorMin: RGBA(-36509450000.000, 0.000, 544514400000000000.000, 0.000)
+              m_ColorMin: RGBA(0.088, 0.000, 0.000, 0.000)
               m_ColorMax: RGBA(0.000, 0.000, 0.000, 0.000)
             range: (0.00, 1.00)
           sizeOverLifetime:
@@ -5192,7 +5192,7 @@
               m_Mode: Color
               m_GradientMin: [null]
               m_GradientMax: [null]
-              m_ColorMin: RGBA(-36509450000.000, 0.000, 544514400000000000.000, 0.000)
+              m_ColorMin: RGBA(0.088, 0.000, 0.000, 0.000)
               m_ColorMax: RGBA(1.000, 1.000, 1.000, 1.000)
             widthOverTrail:
               m_Mode: Constant
@@ -5206,7 +5206,7 @@
               m_Mode: Color
               m_GradientMin: [null]
               m_GradientMax: [null]
-              m_ColorMin: RGBA(-36509450000.000, 0.000, 544514400000000000.000, 0.000)
+              m_ColorMin: RGBA(0.088, 0.000, 0.000, 0.000)
               m_ColorMax: RGBA(1.000, 1.000, 1.000, 1.000)
             generateLightingData: False
             ribbonCount: 1
@@ -5415,7 +5415,7 @@
               m_Mode: Color
               m_GradientMin: [null]
               m_GradientMax: [null]
-              m_ColorMin: RGBA(544429800000000000.000, 0.000, 0.000, 0.000)
+              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
               m_ColorMax: RGBA(1.000, 1.000, 1.000, 0.227)
             gravitySource: Physics3D
             gravityModifier:
@@ -5755,7 +5755,7 @@
                 mode: Blend
                 colorSpace: Uninitialized
               m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
-              m_ColorMax: RGBA(0.000, 0.000, 544426500000000000.000, 0.000)
+              m_ColorMax: RGBA(0.000, 0.000, 0.000, 0.000)
           colorBySpeed:
             enabled: False
             color:
@@ -6981,7 +6981,7 @@
                 mode: Blend
                 colorSpace: Uninitialized
               m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
-              m_ColorMax: RGBA(0.000, 0.000, 544426500000000000.000, 0.000)
+              m_ColorMax: RGBA(0.000, 0.000, 0.000, 0.000)
           colorBySpeed:
             enabled: False
             color:
