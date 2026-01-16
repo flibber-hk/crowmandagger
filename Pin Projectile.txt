@@ -1216,8 +1216,8 @@
                     time: 1
                 mode: Blend
                 colorSpace: Uninitialized
-              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
-              m_ColorMax: RGBA(0.000, 0.000, 2567349000000000000000.000, 0.000)
+              m_ColorMin: RGBA(-0.196, 0.000, 0.000, 0.000)
+              m_ColorMax: RGBA(0.000, 0.000, 0.000, 0.000)
           colorBySpeed:
             enabled: False
             color:
@@ -1240,8 +1240,8 @@
                     time: 1
                 mode: Blend
                 colorSpace: Uninitialized
-              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
-              m_ColorMax: RGBA(0.000, 0.000, 2567349000000000000000.000, 0.000)
+              m_ColorMin: RGBA(-0.196, 0.000, 0.000, 0.000)
+              m_ColorMax: RGBA(0.000, 0.000, 0.000, 0.000)
             range: (0.00, 1.00)
           sizeOverLifetime:
             enabled: True
@@ -1896,7 +1896,7 @@
               m_Mode: Color
               m_GradientMin: [null]
               m_GradientMax: [null]
-              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
+              m_ColorMin: RGBA(-0.196, 0.000, 0.000, 0.000)
               m_ColorMax: RGBA(1.000, 1.000, 1.000, 1.000)
             widthOverTrail:
               m_Mode: Constant
@@ -1910,7 +1910,7 @@
               m_Mode: Color
               m_GradientMin: [null]
               m_GradientMax: [null]
-              m_ColorMin: RGBA(0.000, 0.000, 0.000, 0.000)
+              m_ColorMin: RGBA(-0.196, 0.000, 0.000, 0.000)
               m_ColorMax: RGBA(1.000, 1.000, 1.000, 1.000)
             generateLightingData: False
             ribbonCount: 1
